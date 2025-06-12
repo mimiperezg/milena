@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <title>visual</title> -->
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 5vh 5vw;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="photos.html">01</a>
+    <a href="writing.html">02</a>
+  </div>
+
+  <main>
+    <!-- <h1 style="margin-top: 10vh; text-align: center;">visual</h1> -->
+    <section class="gallery">
+      <img src="../images/mons_klint_mo.JPG" alt="Photo 1">
+      <img src="../images/bruna_utrecht.jpg" alt="Photo 2">
+      <img src="../images/miffy.jpg" alt="Photo 3">
+      <!-- Add more <img> tags here as needed -->
+    </section>
+  </main>
+</body>
+</html>
