@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>03</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    .log-entry {
+      margin-bottom: 5rem;
+    }
+
+    .log-date {
+      font-size: 1rem;
+      margin: 2rem 5vw 1rem;
+      text-transform: lowercase;
+    }
+
+    .log-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      padding: 0 5vw;
+    }
+
+    .log-gallery img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border: 1px solid #ddd;
+    }
+
+    @media (max-width: 768px) {
+      .nav {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        font-size: 0.9rem;
+        padding: 0;
+        margin: 0;
+      }
+
+      .log-gallery {
+        padding-top: 6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="01.html">01</a>
+    <a href="02.html">02</a>
+    <a href="03.html">03</a>
+  </div>
+
+  <a class="home-link" href="../index.html">milena</a>
+
+  <main>
+    <section class="log-entry">
+      <div class="log-date">20250618</div>
+      <div class="log-gallery">
+        <img src="../images/03/sandiego_bnuys.jpeg" alt="Photo 1">
+        <img src="../images/03/stbarths_cemetery.jpeg" alt="Photo 2">
+        <img src="../images/03/cannot_record_boris.jpeg" alt="Photo 3">
+      </div>
+    </section>
+
+    <!-- copy n paste this block for a new log -->
+    <!--
+    <section class="log-entry">
+      <div class="log-date">20250618</div>
+      <div class="log-gallery">
+        <img src="../images/photo4.jpg" alt="Photo 4">
+        <img src="../images/photo5.jpg" alt="Photo 5">
+      </div>
+    </section>
+    -->
+  </main>
+</body>
+</html>

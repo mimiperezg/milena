@@ -57,3 +57,18 @@ a:hover {
     line-height: 1.6;
     text-align: left;
   }
+
+.home-link {
+  position: absolute;
+  top: 5vh;
+  right: 5vw;
+  font-size: 1.2rem;
+  font-family: 'Inconsolata', monospace;
+  text-decoration: none;
+  color: #111;
+  text-transform: lowercase;
+}
+
+.home-link:hover {
+  text-decoration: underline;
+}
