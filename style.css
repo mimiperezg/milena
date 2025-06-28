@@ -72,3 +72,49 @@ a:hover {
 .home-link:hover {
   text-decoration: underline;
 }
+/* Sidebar navigation for internal pages */
+.sidebar-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 60px;
+  padding-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  font-size: 1.2rem;
+  background-color: #fff;
+  z-index: 999;
+}
+
+.sidebar-nav a {
+  text-decoration: none;
+  color: #111;
+  text-transform: lowercase;
+}
+
+.sidebar-nav a:hover {
+  text-decoration: underline;
+}
+
+/* Make room for sidebar */
+.page-content {
+  margin-left: 65px;
+  padding: 5vh 5vw;
+}
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border: 1px solid #ddd;
+}
