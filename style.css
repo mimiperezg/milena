@@ -90,6 +90,12 @@ a:hover {
   z-index: 999;
 }
 
+@media (max-width: 768px) {
+  .sidebar-nav {
+    padding-left: 1rem;
+  }
+}
+
 .sidebar-nav a {
   text-decoration: none;
   color: #111;
