@@ -138,6 +138,14 @@ a:hover {
   display: block;
 }
 
+@media (max-width: 768px) {
+  .log-date {
+    font-size: 0.9rem;
+    margin: 0.25rem 0 0.5rem;
+    text-align: left; /* or center if you prefer */
+  }
+}
+
 .gallery img {
   width: 100%;
   height: auto;
