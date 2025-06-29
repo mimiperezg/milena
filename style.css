@@ -139,6 +139,14 @@ a:hover {
   display: block;
 }
 
+.log-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
 @media (max-width: 768px) {
   .log-date {
     font-size: 0.9rem;
