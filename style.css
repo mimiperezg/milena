@@ -93,7 +93,8 @@ a:hover {
 @media (max-width: 768px) {
   .sidebar-nav {
     padding-left: 1rem;
-    padding: 0.5rem;
+    padding: 0.25rem;
+    padding-top: 3rem;
     font-size: 1rem;
     flex-direction: column;
   }
