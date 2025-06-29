@@ -93,6 +93,9 @@ a:hover {
 @media (max-width: 768px) {
   .sidebar-nav {
     padding-left: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    flex-direction: column;
   }
 }
 
@@ -112,11 +115,27 @@ a:hover {
   padding: 5vh 5vw;
 }
 
+@media (max-width: 768px) {
+  .page-content {
+    margin-top: 80px;   /* pushes content below the sidebar/nav */
+    padding: 1rem;
+  }
+}
+
 
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
+}
+
+.gallery img,
+.log-gallery img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  display: block;
 }
 
 .gallery img {
