@@ -130,13 +130,16 @@ a:hover {
   gap: 2rem;
 }
 
-.gallery img,
-.log-gallery img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border: 1px solid #ddd;
-  display: block;
+.log-entry {
+  margin: 0;
+  padding: 0;
+}
+
+.log-date {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  text-transform: lowercase;
 }
 
 .log-gallery {
@@ -145,6 +148,15 @@ a:hover {
   gap: 1rem;
   margin: 0;
   padding: 0;
+}
+
+.gallery img,
+.log-gallery img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  display: block;
 }
 
 @media (max-width: 768px) {
