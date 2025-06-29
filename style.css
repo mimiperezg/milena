@@ -170,6 +170,13 @@ a:hover {
     padding: 0;
     border: 0;
   }
+  .log-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0;          /* start with no gap to test */
+    margin: 0;       /* removes spacing above/below the grid */
+    padding: 0;      /* removes spacing inside the grid */
+  }
 
 
 }
