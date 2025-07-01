@@ -118,7 +118,7 @@ a:hover {
 
 @media (max-width: 768px) {
   .page-content {
-    margin-top: 80px;   /* pushes content below the sidebar/nav */
+    margin-top: 50px;   /* pushes content below the sidebar/nav */
     padding: 1rem;
   }
 }
