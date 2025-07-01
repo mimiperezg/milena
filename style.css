@@ -47,6 +47,10 @@ a:hover {
 .name {
     font-size: 2rem;
     text-transform: lowercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .content {
