@@ -7,7 +7,7 @@
 }
 
 body {
-  height: 100svh;
+  height: 100vh;
   font-family: 'Inconsolata', monospace;
   background-color: #ffffff;
   color: #111;
@@ -123,7 +123,7 @@ a:hover {
 
 @media (max-width: 768px) {
   .page-content {
-    margin-top: 50px;   /* pushes content below the sidebar/nav */
+    /* margin-top: 50px;   pushes content below the sidebar/nav */
     padding: 1rem;
     position: static;
   }
