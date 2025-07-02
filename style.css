@@ -11,7 +11,6 @@ body {
   font-family: 'Inconsolata', monospace;
   background-color: #ffffff;
   color: #111;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -51,6 +50,8 @@ a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
   }
 
   .content {
@@ -124,6 +125,7 @@ a:hover {
   .page-content {
     margin-top: 50px;   /* pushes content below the sidebar/nav */
     padding: 1rem;
+    position: static;
   }
 }
 
