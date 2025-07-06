@@ -209,6 +209,6 @@ a:hover {
 /* 03 log gallery styles media */
 @media (max-width: 768px) {
   .log-gallery {
-    padding-bottom: 1rem;
+    padding-bottom: 4rem;
   }
 }
