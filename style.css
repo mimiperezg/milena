@@ -226,6 +226,12 @@ a:hover {
 /* 03 log gallery styles media */
 @media (max-width: 768px) {
   .log-gallery {
-    padding-bottom: 4rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .log-entry:last-child .log-gallery {
+    padding-bottom: 3rem;
   }
 }
